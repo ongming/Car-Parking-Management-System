@@ -117,9 +117,9 @@
             // 
             // btnCreateNewAccount
             // 
-            this.btnCreateNewAccount.Location = new System.Drawing.Point(219, 391);
+            this.btnCreateNewAccount.Location = new System.Drawing.Point(199, 391);
             this.btnCreateNewAccount.Name = "btnCreateNewAccount";
-            this.btnCreateNewAccount.Size = new System.Drawing.Size(141, 41);
+            this.btnCreateNewAccount.Size = new System.Drawing.Size(181, 41);
             this.btnCreateNewAccount.TabIndex = 8;
             this.btnCreateNewAccount.Text = "Create New Account";
             this.btnCreateNewAccount.UseVisualStyleBackColor = true;
