@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Car_Parking_Management_System_sourse
 {
-    internal class Person
+    class Person
     {
-        string name;
-        int number_phone;
+        private string name;
+        private int number_phone;
     }
 }

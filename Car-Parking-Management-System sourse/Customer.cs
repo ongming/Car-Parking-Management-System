@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Car_Parking_Management_System_sourse
 {
-    public class Customer : Person
+    class Customer : Person
     {
     }
 }

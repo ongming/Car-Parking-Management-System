@@ -1,6 +1,6 @@
 ﻿namespace Car_Parking_Management_System_sourse
 {
-    partial class Form1
+    partial class Customer_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Customer_Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "Customer_Form";
+            this.Text = "Customer";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

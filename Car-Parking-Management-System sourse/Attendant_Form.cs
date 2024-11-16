@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Car_Parking_Management_System_sourse
 {
-    public partial class Form1 : Form
+    public partial class Attendant_Form : Form
     {
-        public Form1()
+        public Attendant_Form()
         {
             InitializeComponent();
         }
