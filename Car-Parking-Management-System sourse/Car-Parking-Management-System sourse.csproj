@@ -79,6 +79,7 @@
     <Compile Include="Manager_Form.Designer.cs">
       <DependentUpon>Manager_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="ParkingSpace.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

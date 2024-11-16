@@ -40,6 +40,8 @@
             this.txtUser = new System.Windows.Forms.TextBox();
             this.btnCreate = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -72,7 +74,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 222);
+            this.label4.Location = new System.Drawing.Point(40, 268);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 16);
             this.label4.TabIndex = 3;
@@ -81,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 269);
+            this.label5.Location = new System.Drawing.Point(40, 313);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 16);
             this.label5.TabIndex = 4;
@@ -103,28 +105,28 @@
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(190, 263);
+            this.txtPass.Location = new System.Drawing.Point(190, 310);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(170, 22);
             this.txtPass.TabIndex = 7;
             // 
             // txtPhoneNumber
             // 
-            this.txtPhoneNumber.Location = new System.Drawing.Point(190, 162);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(190, 159);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(170, 22);
             this.txtPhoneNumber.TabIndex = 8;
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(190, 216);
+            this.txtUser.Location = new System.Drawing.Point(190, 265);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(170, 22);
             this.txtUser.TabIndex = 9;
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(142, 347);
+            this.btnCreate.Location = new System.Drawing.Point(142, 361);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(149, 40);
             this.btnCreate.TabIndex = 10;
@@ -142,11 +144,29 @@
             this.label6.Text = "Create Customer Account:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+            // txtAge
+            // 
+            this.txtAge.Location = new System.Drawing.Point(190, 215);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(170, 22);
+            this.txtAge.TabIndex = 12;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(40, 215);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 16);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Age:";
+            // 
             // CreateNewAccount_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(446, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtAge);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.txtUser);
@@ -180,5 +200,7 @@
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -7,5 +7,7 @@ namespace Car_Parking_Management_System_sourse
 {
     class Manager : Person
     {
+        private ParkingSpace park;
+        private Attendant[] attendants;
     }
 }

@@ -7,5 +7,6 @@ namespace Car_Parking_Management_System_sourse
 {
     class Attendant : Person
     {
+        
     }
 }

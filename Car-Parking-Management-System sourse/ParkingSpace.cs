@@ -5,8 +5,11 @@ using System.Text;
 
 namespace Car_Parking_Management_System_sourse
 {
-    class Customer : Person
+    public class ParkingSpace
     {
-        
+        private int Park_seri;
+        private string ID;
+        private string InfoCar;
+        private string cost;
     }
 }
