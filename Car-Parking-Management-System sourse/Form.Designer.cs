@@ -141,6 +141,7 @@
             this.Controls.Add(this.radiobtnManager);
             this.Name = "Login_Form";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

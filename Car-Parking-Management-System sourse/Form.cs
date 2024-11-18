@@ -90,5 +90,10 @@ namespace Car_Parking_Management_System_sourse
             CreateNewAccount_Form form = new CreateNewAccount_Form();
             form.ShowDialog();         
         }
+
+        private void Login_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
